@@ -1,5 +1,5 @@
 {
-    "name": "bshaffer/oauth2-server-httpfoundation-bridge",
+    "name": "binhvd/oauth2-server-httpfoundation-bridge",
     "description":"A bridge to HttpFoundation for oauth2-server-php",
     "keywords":["oauth","oauth2","auth","httpfoundation"],
     "type":"library",
@@ -9,12 +9,16 @@
             "name":"Brent Shaffer",
             "email": "bshafs@gmail.com",
             "homepage":"http://brentertainment.com"
+        },
+		{
+            "name": "Binh Vu",
+            "email": "bvu@ftk.de"
         }
     ],
-    "homepage": "http://github.com/bshaffer/oauth2-server-httpfoundation-bridge",
+    "homepage": "https://github.com/binhvd/oauth2-server-httpfoundation-bridge",
     "require":{
         "php":">=7.2.0",
-        "bshaffer/oauth2-server-php": ">=0.9",
+        "binhvd/oauth2-server-php": ">=1.12.0",
         "symfony/http-foundation": ">=5.0"
     },
     "autoload": {
